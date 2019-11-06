@@ -3,11 +3,13 @@ body {}
 
 button.button 
 {
-    background-color: crimson;
+    background-image: url("images/christmas tree.png");
     height: 300px;
-width: 150px;}
+width: 150px;
+font: italic 1.2em "Fira Sans", serif;}
 
 .door-knob 
-{height: 40px; 
+{height: 100px; 
     float: right;
 }
+
