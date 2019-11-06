@@ -1,13 +1,12 @@
 body {}
-    
 
-button.button 
-{
-    background-color: crimson;
-    height: 300px;
-width: 150px;}
 
-.door-knob 
-{height: 40px; 
-    float: right;
+button.button {
+  background-color: crimson;
+  height: 300px;
+  width: 150px;}
+
+.door-knob {
+  height: 40px;
+  float: right;
 }
