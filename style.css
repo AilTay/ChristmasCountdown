@@ -11,10 +11,11 @@ button.button {
   float: right;
 }
 h1{
-text-decoration-color: gold;
+text-decoration-color: rgb(228, 197, 22);
 text-align: center;
 position: fixed;
+margin-left: 5px;
+margin-right: 5px;
 width: 97.5%;
-margin-top: -20px;
 height: 60px;
 }
