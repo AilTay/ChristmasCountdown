@@ -1,1 +1,13 @@
-body {background-image:"fao-schwarz-holiday-advent-calendar-sleigh-3843176530007_1800x1800.jpg;"}
+body {}
+    
+
+button.button 
+{
+    background-color: crimson;
+    height: 300px;
+width: 150px;}
+
+.door-knob 
+{height: 40px; 
+    float: right;
+}
