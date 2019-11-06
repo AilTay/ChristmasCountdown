@@ -1,14 +1,15 @@
 body {}
 
+button.button 
+{
+    background-image: url("images/christmas tree.png");
+    height: 300px;
+width: 150px;
+font: italic 1.2em "Fira Sans", serif;}
 
-button.button {
-  background-color: crimson;
-  height: 300px;
-  width: 150px;}
-
-.door-knob {
-  height: 40px;
-  float: right;
+.door-knob 
+{height: 100px; 
+    float: right;
 }
 h1{
 color:  rgb(231, 204, 50);
