@@ -1,9 +1,14 @@
 body{
   background-color: crimson;
-  color: white;
+  color: #D4AF37;
 }
 
 .main{
-  background-color: #F5B7B1;
+  background-color: white;
   border-radius: 10%;
+  text-align: center;
+}
+
+.text{
+  display: inline-block;
 }
