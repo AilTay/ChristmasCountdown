@@ -1,15 +1,25 @@
-body {}
+body {
+}
 
-button.button {
-  background-image: url("images/christmas tree.png");
+.button {
+  background-color: #FE211A;
   height: 300px;
   width: 150px;
   font: italic 1.2em "Fira Sans", serif;
 }
 
+.button:hover{
+  background-color: #C91813;
+}
+
 .door-knob {
   height: 100px;
   float: right;
+}
+
+.corner{
+  position: relative;
+  z-index: -1;
 }
 
 .right {
@@ -31,6 +41,7 @@ h1{
 }
 
 h3{
+  font-family: 'Great Vibes', cursive;
   color: rgb(231, 204, 50);
   text-align: center;
   #position: fixed;
@@ -42,9 +53,9 @@ h3{
   height: 60px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
-.links-1-5{
+/* .links-1-5{
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
+}*/
