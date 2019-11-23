@@ -9,10 +9,17 @@ body {
   color: rgb(231, 204, 50);
   border-radius: 10%;
   text-shadow: 2px 2px 4px #000000;
+  background-image: url(https://www.maxpixel.net/static/photo/2x/Red-Christmas-Candle-Symbol-December-Wreath-993920.jpg);
+  background-attachment: relative;
+  background-size: cover;
 }
 
 .button:hover{
   background-color: #C91813;
+  background-image: url(https://www.maxpixel.net/static/photo/2x/Red-Christmas-Candle-Symbol-December-Wreath-993920.jpg);
+  background-attachment: relative;
+  background-size: cover;
+  opacity: 0.5;
 }
 
 .button:active{
