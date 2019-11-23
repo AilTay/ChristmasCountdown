@@ -3,17 +3,25 @@ body {
 
 .button {
   background-color: #FE211A;
-  height: 300px;
+  height: 275px;
   width: 150px;
   font: italic 1.2em "Fira Sans", serif;
+  color: rgb(231, 204, 50);
+  border-radius: 10%;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .button:hover{
   background-color: #C91813;
 }
 
+.button:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .door-knob {
-  height: 100px;
+  height: 50px;
   float: right;
 }
 
@@ -27,17 +35,25 @@ body {
   float: right;
 }
 
+#top{
+  margin-bottom: 0px; /*want his to equal -150px. but for some reason this pushes the h1 to the left and I can't fix it*/
+}
+
+#bottom{
+  margin-top: -150px;
+}
+
 h1{
   color:  rgb(231, 204, 50);
   text-align: center;
   #position: fixed;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 1px;
+  margin-top: 10px;
   font-size: 100px;
   width: 97.5%;
   height: 60px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h3{
@@ -45,17 +61,23 @@ h3{
   color: rgb(231, 204, 50);
   text-align: center;
   #position: fixed;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
+  margin-bottom: 50px;
   font-size: 50px;
   width: 97.5%;
   height: 60px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
-/* .links-1-5{
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}*/
+
+.doors{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.doors{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
