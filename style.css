@@ -43,7 +43,7 @@ body {
 }
 
 #top{
-  margin-bottom: 0px; /*want his to equal -150px. but for some reason this pushes the h1 to the left and I can't fix it*/
+  margin-bottom: 0px; /*want this to equal -150px. but for some reason this pushes the h1 to the left and I can't fix it*/
 }
 
 #bottom{

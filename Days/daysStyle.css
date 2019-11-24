@@ -5,10 +5,36 @@ body{
 
 .main{
   background-color: white;
-  border-radius: 10%;
+  border-radius: 3%;
   text-align: center;
 }
 
 .text{
   display: inline-block;
+}
+
+img{
+  border-radius: 5%;
+}
+
+.right {
+  position: relative;
+  float: right;
+  padding-right: 10px;
+}
+
+.left {
+  position: relative;
+  float: left;
+  padding-left: 10px;
+}
+
+#top{
+  /*margin-bottom: -150px;*/
+  padding-top: 10px;
+}
+
+#bottom{
+  margin-top: 0px;
+  padding-bottom: 10px;
 }
