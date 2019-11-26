@@ -18,6 +18,10 @@ h2{
   background-color: white;
   border-radius: 3%;
   text-align: center;
+  background-image: url(https://storage.needpix.com/rsynced_images/red-bauble-decoration-11290006103AmZ.jpg);
+  background-attachment: relative;
+  background-size: cover;
+  font-size: 20px;
 }
 
 .text{
