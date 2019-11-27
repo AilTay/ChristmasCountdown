@@ -10,6 +10,13 @@ body{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.button{
+  border-radius: 20px;
+  background-color: #C91813;
+  color: rgb(231, 204, 50);
+  border: 2px solid rgb(231, 204, 50);
+}
+
 h2{
   font-family: 'Great Vibes', cursive;
 }
