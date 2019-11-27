@@ -15,6 +15,7 @@ body {
   background-image: url(https://www.maxpixel.net/static/photo/2x/Red-Christmas-Candle-Symbol-December-Wreath-993920.jpg);
   background-attachment: relative;
   background-size: cover;
+  cursor: pointer;
 }
 
 .button:hover{
