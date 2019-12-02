@@ -29,3 +29,4 @@ function calc() {
     
 }
 setInterval(calc, 0);
+// help me out laid ease i can't figure out how to make this script (that i totally wrote myself 100% didn't just google it) work LOL like from what i can tell it *SHOULD* be working but it's just not and im so bad at this rIP
