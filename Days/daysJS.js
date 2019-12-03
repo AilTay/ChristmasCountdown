@@ -1,4 +1,4 @@
-// creating pop-ups to coonfirm the user is on the right day
+// creating pop-ups to confirm the user is on the right day
 var i ="1st" // currently only works for the 1st.
 var prompt = prompt("Is it the " + i + " of December? Enter yes or no.");
 
