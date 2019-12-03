@@ -1,11 +1,19 @@
-// creating pop-ups to confirm the user is on the right day
-var i ="1st" // currently only works for the 1st.
-var prompt = prompt("Is it the " + i + " of December? Enter yes or no.");
+// countdown created using instructions from https://www.developerdrive.com/build-countdown-timer-pure-javascript/
+var endDate = new Date("Dec 25, 2019 00:00:00").getTime();
+var timer = setInterval(function(){
+  let now = new Date().getTime();
+  let t = endDate - now;
 
-if(prompt === "yes"){
-  alert("You are on the right day!");
-}else if(prompt === "no"){
-  alert("You are on the wrong day! Go back to avoid spoinling the fun!");
-}else{//want prompt to appear again in this case but can't work out how.
-  alert("Sorry I do not understand.");
-}
+  if (t >= 0) {
+
+    let dates = new Date();
+
+    document.getElementById("date").innerHTML = dates;
+    
+  } else {
+
+    document.getElementById("timer").innerHTML = "The countdown is over!";
+
+  }
+
+}, 1000);

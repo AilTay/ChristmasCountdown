@@ -6,10 +6,13 @@ var timer = setInterval(function(){
 
   if (t >= 0) {
 
+    let dates = new Date();
     let days = Math.floor(t / (1000 * 60 * 60 * 24));
     let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
     let secs = Math.floor((t % (1000 * 60)) / 1000);
+
+    document.getElementById("date").innerHTML = dates;
 
     document.getElementById("timer-days").innerHTML = days +
     "<span class='label'>Days</span>";
