@@ -5,9 +5,14 @@
     <link rel="stylesheet" type="text/css" href="style.css" >
     <title>Christmas Countdown</title>
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script src="newIndex.js"></script>
   </head>
 
   <body>
+    <div class="today">
+      <span id="date"></span>
+    </div>
+    
     <div class="corner" id="top">
       <img class="left" src="images\corner_decoration_top_left.png" alt="gold corner decoration" width="20%" height="20%">
       <img class="right" src="images\corner_decoration_top_right.png" alt="gold corner decoration" width="20%" height="20%">
@@ -17,6 +22,16 @@
       <h1>COUNTDOWN TO CHRISTMAS</h1>
       <br>
       <h3>Merry Christmas!</h3>
+
+      <div class="countdown">
+        <p id="timer">
+          <span id="timer-days"></span>
+          <span id="timer-hours"></span>
+          <span id="timer-mins"></span>
+          <span id="timer-secs"></span>
+        </p>
+      </div>
+
     </div>
 
     <div class="doors">
@@ -62,11 +77,6 @@
       <img class="right" src="images\corner_decoration_bottom_right.png" alt="gold corner decoration" width="20%" height="20%">
     </div>
 
-    <div 
-    
-    class="xmas">Uh oh! You need JavaScript enabled to view the countdown!
-  
-  </div>
 
  </body>
 
