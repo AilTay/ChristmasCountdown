@@ -32,10 +32,6 @@ h2{
   border-radius: 3%;
   text-align: center;
   background-image: url(https://storage.needpix.com/rsynced_images/red-bauble-decoration-11290006103AmZ.jpg), url(snow_background1.png), url(snow_background2.png), url(snow_background3.png);
-  @-webkit-keyframes snow {
-    0% {background-position: 0px 0px;}
-    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-  background-attachment: relative;
   background-size: cover;
   font-size: 20px;
   color: #820301;
